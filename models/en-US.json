@@ -1,0 +1,29 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cricinfo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "displaydata",
+          "samples": [
+            "up coming matches",
+            "upcoming matches",
+            "what are the upcoming matches"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.5746fee1-d416-4e93-9b30-3c3779f939a1",
+      "was_cloned": true,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:633786949655:function:ask-custom-CricInfo-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
